@@ -8,7 +8,7 @@ export default defineConfig({
     adapter: vercel({
         isr: {
             expiration: 60, // 60秒間キャッシュする
-            bypassToken: 'astro-isr-bypass', // キャッシュをバイパスするためのトークン
+            bypassToken: 'f3a13dad-b3d3-635a-94b7-eed969401a99', // キャッシュをバイパスするためのトークン
             exclude: ['/draft'],
         }
     }), // Vercelに最適な形でデプロイするための設定 
